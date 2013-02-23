@@ -13,7 +13,7 @@ packet = "1E|10|10" # test packet
 data = packet.split("|")
 switch data[0] :
     case "1E": #move forward opcode
-        MoveForward(data[1], data[2]); //move forward 10 meters at 10 speed 
+        MoveForward(data[1], data[2]); # move forward 10 meters at 10 speed 
         break
     case "2E":
         break
